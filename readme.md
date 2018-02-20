@@ -1,5 +1,5 @@
 # SB Admin for Laravel 5.6
-This project is based on Admin Bootstrap Theme SB Admin. Every structure of SB Admin design is divided in compoments and slots.
+This project is based on SB Admin Bootstrap Theme. Every structure of SB Admin design is divided into components and slots.
 
 ## Requirements
 This admin template uses the [Laravel](https://laravel.com/ "Laravel") framework.
