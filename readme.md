@@ -23,7 +23,7 @@ $ composer install --prefer-dist -vvv # Might take a while to complete
 
 $ cp .env.example .env # Update database credentials
 
-$ php artisan key:gnerate
+$ php artisan key:generate
 
 $ php artisan serve
 ```
