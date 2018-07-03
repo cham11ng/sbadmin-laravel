@@ -35,11 +35,11 @@
               </div>
             </div>
           </div>
-          <a class="btn btn-primary btn-block" href="/admin/register">Register</a>
+          <a class="btn btn-primary btn-block" href="{{ url('/admin/register') }}">Register</a>
         </form>
         <div class="text-center">
-          <a class="d-block small mt-3" href="/admin/register">Login Page</a>
-          <a class="d-block small" href="/admin/forgot-password">Forgot Password?</a>
+          <a class="d-block small mt-3" href="{{ url('/admin/login') }}">Login Page</a>
+          <a class="d-block small" href="{{ url('/admin/forgot-password') }}">Forgot Password?</a>
         </div>
       </div>
     </div>

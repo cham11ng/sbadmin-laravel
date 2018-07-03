@@ -21,11 +21,11 @@
                 <input class="form-check-input" type="checkbox"> Remember Password</label>
             </div>
           </div>
-          <a class="btn btn-primary btn-block" href="index.html">Login</a>
+          <a class="btn btn-primary btn-block" href="{{ url('/') }}">Login</a>
         </form>
         <div class="text-center">
-          <a class="d-block small mt-3" href="/admin/register">Register an Account</a>
-          <a class="d-block small" href="admin/forgot-password">Forgot Password?</a>
+          <a class="d-block small mt-3" href="{{ url('/admin/register') }}">Register an Account</a>
+          <a class="d-block small" href="{{ url('/admin/forgot-password') }}">Forgot Password?</a>
         </div>
       </div>
     </div>
