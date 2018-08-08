@@ -14,11 +14,11 @@
           <div class="form-group">
             <input class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Enter email address">
           </div>
-          <a class="btn btn-primary btn-block" href="login.html">Reset Password</a>
+          <a class="btn btn-primary btn-block" href="{{ url('/admin/login') }}">Reset Password</a>
         </form>
         <div class="text-center">
-          <a class="d-block small mt-3" href="/admin/register">Register an Account</a>
-          <a class="d-block small" href="/admin/login">Login Page</a>
+          <a class="d-block small mt-3" href="{{ url('/admin/register') }}">Register an Account</a>
+          <a class="d-block small" href="{{ url('/admin/login') }}">Login Page</a>
         </div>
       </div>
     </div>

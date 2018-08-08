@@ -1,25 +1,25 @@
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <a class="navbar-brand" href="/admin">Start Bootstrap</a>
+    <a class="navbar-brand" href="{{ url('/admin') }}">Start Bootstrap</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-                <a class="nav-link" href="/admin">
+                <a class="nav-link" href="{{ url('/admin') }}">
                     <i class="fa fa-fw fa-dashboard"></i>
                     <span class="nav-link-text">Dashboard</span>
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
-                <a class="nav-link" href="/admin/charts">
+                <a class="nav-link" href="{{ url('/admin/charts') }}">
                     <i class="fa fa-fw fa-area-chart"></i>
                     <span class="nav-link-text">Charts</span>
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
-                <a class="nav-link" href="/admin/tables">
+                <a class="nav-link" href="{{ url('/admin/tables') }}">
                     <i class="fa fa-fw fa-table"></i>
                     <span class="nav-link-text">Tables</span>
                 </a>
@@ -31,10 +31,10 @@
                 </a>
                 <ul class="sidenav-second-level collapse" id="collapseComponents">
                     <li>
-                        <a href="/admin/navbar">Navbar</a>
+                        <a href="{{ url('/admin/navbar') }}">Navbar</a>
                     </li>
                     <li>
-                        <a href="/admin/cards">Cards</a>
+                        <a href="{{ url('/admin/cards') }}">Cards</a>
                     </li>
                 </ul>
             </li>
@@ -45,16 +45,16 @@
                 </a>
                 <ul class="sidenav-second-level collapse" id="collapseExamplePages">
                     <li>
-                        <a href="/admin/login">Login Page</a>
+                        <a href="{{ url('/admin/login') }}">Login Page</a>
                     </li>
                     <li>
-                        <a href="/admin/register">Registration Page</a>
+                        <a href="{{ url('/admin/register') }}">Registration Page</a>
                     </li>
                     <li>
-                        <a href="/admin/forgot-password">Forgot Password Page</a>
+                        <a href="{{ url('/admin/forgot-password') }}">Forgot Password Page</a>
                     </li>
                     <li>
-                        <a href="/admin/blank">Blank Page</a>
+                        <a href="{{ url('/admin/blank') }}">Blank Page</a>
                     </li>
                 </ul>
             </li>
